@@ -1,18 +1,15 @@
 :root {
 	/*Primary*/
-
 	--clr-dark-cyan: hsl(158, 36%, 37%);
 	--clr-dark-cyan-500: hsl(158, 36%, 20%);
 	--clr-cream: hsl(30, 38%, 92%);
 
 	/*Neutral*/
-
 	--clr-very-dark-blue: hsl(212, 21%, 14%);
 	--clr-dark-grayish-blue: hsl(228, 12%, 48%);
 	--clr-white: hsl(0, 0%, 100%);
 
 	/*Fonts*/
-
 	--ff-montserrat: 'montserrat', sans-serif;
 	--ff-fraunces: 'fraunces', serif;
 
@@ -77,6 +74,7 @@ p, h1 {
 	letter-spacing: 5px;
 	margin: 0 0 18px 0;
 	font-weight: 100;
+	font-size: 13.28px;
 }
 
 .container .inner {
@@ -87,13 +85,14 @@ p, h1 {
 	font-family: var(--ff-fraunces);	
 	color: #000000;
 	margin: 0 0 25px 0;
-	font-size: 28px;
+	font-size: 32px;
 	line-height: 1;
 }
 
 .description {
 	color: var(--clr-dark-grayish-blue);
 	margin: 0 0 32px 0;
+	line-height: 1.6;
 }
 
 .price {
@@ -156,16 +155,7 @@ p, h1 {
 		margin: 0 0 20px 0;
 	}
 
-	.container .inner > h1 {
-		font-size: 32px;
-		margin: 0 0 33px 0;
-	}
-
-	.description {
-	    margin: 0 0 35px 0;
-	}
-
-	.price {
-	    margin: 0 0 30px 0;
+	.price .new-price {
+		margin: 0 20px 0 0;
 	}
 }
