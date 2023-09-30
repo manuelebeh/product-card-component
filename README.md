@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Design
 
-![](./mobile-design.jpg)
-![](./desktop-design.jpg)
-![](./active-states.jpg)
+![](./design/mobile-design.jpg)
+![](./design/desktop-design.jpg)
+![](./design/active-states.jpg)
 
 ### Links
 
